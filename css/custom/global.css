@@ -61,6 +61,23 @@
     opacity: 0.75;
 }
 
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.graylayer {
+    position: absolute;
+    background: rgb(51, 59, 80); /* Fallback color */
+    background: rgba(51, 59, 80, 0.5);
+    width: 100%; /* Full width */
+    height: 100%;
+}
+
 /* parallax */
 
 body, html {
@@ -81,7 +98,7 @@ body, html {
 }
 
 .bgimg-1 {
-    background-image: url("../../images/img_parallax.jpg");
+    background-image: url("../../images/035244_b479c942430942bfab09b6cc06ff380amv2.webp");
     min-height: 100%;
 }
 
