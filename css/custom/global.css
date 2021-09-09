@@ -1,8 +1,7 @@
 /* bootstrap override */
 
 .navbar {
-    background-color: #333b50 !important;
-    opacity: 0.5;
+    background-color: rgba(51, 59, 80,.5);
 }
 
 .nav-link:hover {
@@ -104,6 +103,11 @@
     margin-bottom: 40px;
 }
 
+.ap-contact {
+    background-color: #333b50;
+    color: white; padding:50px 25%;"
+}
+
 /* parallax */
 
 body, html {
@@ -112,14 +116,13 @@ body, html {
     scroll-behavior: smooth;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;
     opacity: 1;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .bgimg-1 {
@@ -134,9 +137,15 @@ body, html {
 }
 
 .bgimg-3 {
-    background-image: url("../../images/img_parallax3.jpg");
+    background-image: url("../../images/experience.jpg");
     min-height: 400px;
     opacity: 1;
+}
+
+.bgimg-4 {
+    background-image: url("../../images/chaus_bis.jpg");
+    min-height: 100%;
+    background-position: bottom;
 }
 
 .caption {
