@@ -90,6 +90,7 @@
     animation-name: ap-anim-underline-keyframes;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    width: 100%;
 }
 @keyframes ap-anim-underline-keyframes {
     from {background-position: right -100% bottom 0; background-size: 200% 10px;}
@@ -97,11 +98,7 @@
 }
 
 .ap-professionnelle {
-    width: 20%;
-    display: inline-grid;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-bottom: 40px;
 }
 
