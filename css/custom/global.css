@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: rgba(51, 59, 80,.5);
+    font-size: 0.75rem;
 }
 
 .nav-link:hover {
@@ -27,7 +28,6 @@
 
 .ap-logo-navbar-toggler {
     border: 0;
-    width: 93%;
 }
 
 .ap-menu-button {
@@ -141,7 +141,7 @@ body, html {
 }
 
 .bgimg-2 {
-    background-image: url("../../images/img_parallax2.jpg");
+    background-image: url("../../images/experience.jpg");
     min-height: 400px;
     opacity: 1;
 }

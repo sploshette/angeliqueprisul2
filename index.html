@@ -23,12 +23,16 @@
 <div class="bgimg-1">
     <div class="ap-graylayer">
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-md navbar-light">
                 <span class="navbar-toggler ap-logo-navbar-toggler">
                     <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="ap-logo-responsive"
                                                                    alt="Angélique Prisul"></a>
                 </span>
-                <div>
+                <button class="navbar-toggler ap-menu-button" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item collapse navbar-collapse">
                             <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="ap-logo-fixed"
@@ -58,48 +62,36 @@
         </div>
 
         <div class="ap-center">
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent !important;">
+            <nav class="navbar navbar-expand-md navbar-light" style="background-color: transparent !important;">
                 <div class="navbar-nav">
                     <div class="collapse navbar-collapse">
-                        <div>
-                            <h1 style="font-size:20px">
-                                <span style="font-family:avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif">
-                                    <span style="font-size:20px; color: white;">
-                                J'accompagne les entreprises, les indépendants<br>
-                    et les porteurs de projet dans l'élaboration<br>
-                    et la création de leur identité graphique,<br>
-                    univers visuel et supports de communication<br>
-                    (print &amp; motion vidéo).
-                                        <br><br>
-                                        GRAPHISME &amp; DIRECTION ARTISTIQUE
-                                    </span>
-                                </span>
-                            </h1>
-                        </div>
+                        <span style="font-weight: 100">
+                            <span style="font-size:1rem; color: white;">
+J'accompagne les entreprises, les indépendants et les porteurs de projet dans l'élaboration et la création de leur identité graphique, univers visuel et supports de communication (print &amp; motion vidéo).<br>
+                            </span>
+                            <span style="font-size:2rem; color: white;letter-spacing:0.18em;">
+                                <br>
+                                GRAPHISME &amp; DIRECTION ARTISTIQUE
+                            </span>
+                        </span>
                     </div>
                 </div>
             </nav>
         </div>
 
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent !important;">
+        <div style="margin-left: 25%; margin-right: 25%">
+            <nav class="navbar navbar-expand-md navbar-light" style="background-color: transparent !important;">
                 <div class="navbar-nav">
                     <div class="navbar-toggler" style="border-color: transparent !important;">
-                        <div>
-                            <h1 style="font-size:20px">
-                                <span style="font-family:avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif">
-                                    <span style="font-size:20px; color: white;">
-                                <br>J'accompagne les entreprises, les indépendants
-                    et les porteurs de projet dans l'élaboration
-                    et la création de leur identité graphique,
-                    univers visuel et supports de communication
-                    (print &amp; motion vidéo).
-                                        <br><br>
-                                        GRAPHISME &amp; DIRECTION ARTISTIQUE
-                                    </span>
-                                </span>
-                            </h1>
-                        </div>
+                        <span style="font-weight: 100;">
+                            <span style="font-size:1rem; color: white">
+<br><br><br>J'accompagne les entreprises, les indépendants et les porteurs de projet dans l'élaboration et la création de leur identité graphique, univers visuel et supports de communication (print &amp; motion vidéo).<br>
+                            </span>
+                            <span style="font-size:2rem; color: white;letter-spacing:0.18em;">
+                                <br>
+                                GRAPHISME &amp; DIRECTION ARTISTIQUE
+                            </span>
+                        </span>
                     </div>
                 </div>
             </nav>
@@ -174,8 +166,10 @@
         </span>
         </h5>
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
-                <div class="col">
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-4">
                     <a href="editionprint.html">
                         <img src="images/homepage_ensegur.jpg" class="ap-home-img-responsive" alt="EDITION PRINT">
                         <div class="row">
@@ -183,13 +177,15 @@
                         </div>
                     </a>
                 </div>
-                <div class="col">
+                <div class="col-4">
                     <a href="motion.html">
                         <img src="images/homepageDRB.jpg" class="ap-home-img-responsive" alt="MOTION DESIGN">
                         <div class="row">
                             <span class="text-center w-100 text-muted">MOTION DESIGN</span>
                         </div>
                     </a>
+                </div>
+                <div class="col-2">
                 </div>
             </div>
         </div>
@@ -319,6 +315,9 @@
         observerTimeline.observe(el, options);
     });
 </script>
+
+<script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
+<script src="js/vendor/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
