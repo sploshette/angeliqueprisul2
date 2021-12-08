@@ -88,10 +88,11 @@
         <img src="images/ducray_2.jpg" class="ap-img-responsive">
     </div>
     <div class="row pl-1 pr-1 d-block">
-        <video autoplay muted controls class="ap-img-responsive">
-            <source src="videos/CompositionDucray.mp4" type="video/mp4">
-        </video>
+        <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/vpliu4t6H1s?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
+    <br>
 
 </div>
 
@@ -100,30 +101,11 @@
 
 <script>
     window.onload = function() {
-        var videos = document.getElementsByTagName("video"),
-            fraction = 0.2;
-        function checkScroll() {
-            for (var i = 0; i < videos.length; i++) {
-                var video = videos[i];
-                var x = video.offsetLeft,
-                    y = video.offsetTop,
-                    w = video.offsetWidth,
-                    h = video.offsetHeight,
-                    r = x + w, //right
-                    b = y + h, //bottom
-                    visibleX, visibleY, visible;
-                visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
-                visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
-                visible = visibleX * visibleY / (w * h);
-                if (visible > fraction) {
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            }
+        var videos = document.getElementsByTagName("video");
+        for (var i = 0; i < videos.length; i++) {
+            var video = videos[i];
+            video.play();
         }
-        window.addEventListener('scroll', checkScroll, false);
-        window.addEventListener('resize', checkScroll, false);
     }
 </script>
 
