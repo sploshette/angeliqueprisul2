@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 </head>
-<body>
+<body class="s">
 
 <div style="background: rgb(51, 59, 80);">
     <nav class="navbar navbar-expand-md navbar-light">
@@ -45,10 +45,10 @@
                     <a class="nav-link ap-nav-link" href="index.html#EXPERIENCE">TÉMOIGNAGES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ap-nav-link nav-item active" href="editionprint.html">&Eacute;DITION PRINT</a>
+                    <a class="nav-link ap-nav-link" href="editionprint.html">&Eacute;DITION PRINT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ap-nav-link" href="motion.html">MOTION DESIGN</a>
+                    <a class="nav-link ap-nav-link nav-item active" href="motion.html">MOTION DESIGN</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link ap-nav-link" href="index.html#contact">CONTACT</a>
@@ -63,28 +63,44 @@
     <br><br>
     <div class="row pl-1 pr-1 d-block">
         <span class="w-100">
-            <strong>MARIE ALINE BOISVERT</strong>
+            <strong>BLAYE VILLA DES ARTS</strong>
         </span>
     </div>
     <div class="row pl-1 pr-1 d-block">
         <span class="w-100">
-            Ensemble des supports de communication conçus pour la Thérapeute énergéticienne/ Enseignante yoga Marie Aline Boisvert.
-            <br>> Conception de l'identité visuelle ainsi que la charte graphique. L'objectif de ce logo est de revenir sur les fondamentaux, la source et l'origine des pratiques Reïki, LaHoChi, Yoga, gong & bols issu de l'Asie (Japon, Chine, Inde). Volontairement les codes graphiques de cette identité visuelle sont empreints du monde asiatique pour faire corps avec son origine.
-            <br>> Réalisation graphique des flyers
-            <br>> Accompagnement et création de publications, stories animées et vidéos pour le lancement du compte Instagram et Facebook.
+            Voici un teaser vidéo réalisé pour l'association culturelle Blaye Villa des Arts<br>
+            L'association a souhaité que je réalise pour ses réseaux sociaux une petite vidéo très dynamique à poster 10 jours avant l'ouverture de l'exposition.<br>
+            Vous cherchez à annoncer un événement, lancer un nouveau concept ou produit ?<br>
+            Je vous accompagne dans la réalisation de votre teaser, pub, film court de A à Z : conception, scénario, réalisation, choix musical de votre film.<br>
+            <br>
+            👉Qu'est-ce que c'est qu'une vidéo de teasing ou un teaser vidéo ?<br>
+            Teaser, c'est séduire et en même temps frustrer pour donner envie d'en savoir plus. L'usage du teaser vidéo dans l'événementiel connait depuis plusieurs années un regain d'intérêt dans la mesure où celui-ci peut devenir viral et être relayé par des influenceurs.<br>
+            Un teaser est un outil de communication marketing cherchant à produire de l'intérêt pour un projet en suscitant la curiosité. Il permet d'accroître le taux de participation à l'événement puisqu'il profite d'une plus grande visibilité grâce aux plateformes des réseaux sociaux.
         </span>
         <br>
         <br>
     </div>
 
     <div class="row pl-1 pr-1 d-block">
-        <img src="images/MAB-1.jpg" class="ap-img-responsive">
+        <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/qVWP4FCZXME?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
-
+    <br>
 </div>
 
 <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
 <script src="js/vendor/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function() {
+        var videos = document.getElementsByTagName("video");
+        for (var i = 0; i < videos.length; i++) {
+            var video = videos[i];
+            video.play();
+        }
+    }
+</script>
 
 </body>
 </html>

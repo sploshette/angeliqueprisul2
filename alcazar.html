@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 </head>
-<body>
+<body class="s">
 
 <div style="background: rgb(51, 59, 80);">
     <nav class="navbar navbar-expand-md navbar-light">
@@ -45,10 +45,10 @@
                     <a class="nav-link ap-nav-link" href="index.html#EXPERIENCE">TÉMOIGNAGES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ap-nav-link nav-item active" href="editionprint.html">&Eacute;DITION PRINT</a>
+                    <a class="nav-link ap-nav-link" href="editionprint.html">&Eacute;DITION PRINT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link ap-nav-link" href="motion.html">MOTION DESIGN</a>
+                    <a class="nav-link ap-nav-link nav-item active" href="motion.html">MOTION DESIGN</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link ap-nav-link" href="index.html#contact">CONTACT</a>
@@ -63,28 +63,40 @@
     <br><br>
     <div class="row pl-1 pr-1 d-block">
         <span class="w-100">
-            <strong>MARIE ALINE BOISVERT</strong>
+            <strong>ALCAZAR RESTAURANT</strong>
         </span>
     </div>
     <div class="row pl-1 pr-1 d-block">
         <span class="w-100">
-            Ensemble des supports de communication conçus pour la Thérapeute énergéticienne/ Enseignante yoga Marie Aline Boisvert.
-            <br>> Conception de l'identité visuelle ainsi que la charte graphique. L'objectif de ce logo est de revenir sur les fondamentaux, la source et l'origine des pratiques Reïki, LaHoChi, Yoga, gong & bols issu de l'Asie (Japon, Chine, Inde). Volontairement les codes graphiques de cette identité visuelle sont empreints du monde asiatique pour faire corps avec son origine.
-            <br>> Réalisation graphique des flyers
-            <br>> Accompagnement et création de publications, stories animées et vidéos pour le lancement du compte Instagram et Facebook.
+            Conception et création des affiches, vidéos et publications pour les réseaux sociaux pour le restaurant l'Alcazar (Paris VI) lancement de la Love Night (septembre 2021) tous les samedis soir.<br>
+            <br>
+            Objectif : revenir aux fondamentaux de l'Alcazar ancien cabaret. En 1968, Jean-Marie Rivière et Marc Doelnitz ouvrent un cabaret baptisé « L'Alcazar ». On vient y assister à des spectacles de transformistes et à des revues à plumes. Des chanteuses s'y produisent également, comme Danny ou Marie-France.<br>
+            En 1998, l'établissement est repris par Terence Conran, l'homme d'affaires qui créa Habitat puis The Conran Shop. Le lieu est alors transformé en un luxueux restaurant de 220 places. Endroit branché de Saint-Germain des Prés, l'Alcazar possède de beaux éléments architecturaux : une verrière de 12m de hauteur ainsi qu'une mezzanine.
         </span>
         <br>
         <br>
     </div>
 
     <div class="row pl-1 pr-1 d-block">
-        <img src="images/MAB-1.jpg" class="ap-img-responsive">
+        <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/qVWP4FCZXME?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
-
+    <br>
 </div>
 
 <script src="js/vendor/jquery-3.5.1.slim.min.js"></script>
 <script src="js/vendor/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function() {
+        var videos = document.getElementsByTagName("video");
+        for (var i = 0; i < videos.length; i++) {
+            var video = videos[i];
+            video.play();
+        }
+    }
+</script>
 
 </body>
 </html>
