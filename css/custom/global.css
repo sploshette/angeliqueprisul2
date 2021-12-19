@@ -1,16 +1,16 @@
 /* bootstrap override */
 
 .navbar {
-    background-color: rgba(51, 59, 80,.5);
+    background-color: #f55d3e;
     font-size: 0.75rem;
 }
 
 .nav-link:hover {
-    color: #bec5cf !important;
+    color: #5c7552 !important;
 }
 
 .nav-item.active {
-    color: #00d646 !important;
+    color: #444444 !important;
 }
 
 /* custom ap */
@@ -47,9 +47,24 @@
     background-color: #444444 !important;
 }
 
-.ap-button {
+.ap-button-jaune {
+    border-color: #f2bd50;
+    background-color: #f2bd50;
+}
+.ap-button-jaune:hover {
+    color: #fff;
+    background-color: #444444;
+    border-color: #444444;
+}
+
+.ap-button-rouge {
     border-color: #f55d3e;
     background-color: #f55d3e;
+}
+.ap-button-rouge:hover {
+    color: #fff;
+    background-color: #444444;
+    border-color: #444444;
 }
 
 .ap-logo-fixed {
@@ -78,8 +93,8 @@
     padding-bottom: 0 !important;
     padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
-    color: #939dab !important;
-    border-color: #dee2e6 #dee2e6 #fff !important;
+    color: #eae5e3 !important;
+    border-color: #eae5e3 #eae5e3 #eae5e3 !important;
 }
 
 .ap-card {
@@ -132,7 +147,7 @@
 .ap-anim-underline {
     display: inline-block;
     padding-bottom:10px;
-    background-image: linear-gradient(#00d646, #00d646);
+    background-image: linear-gradient(#f2bd50, #f2bd50);
     background-repeat: no-repeat;
     animation-name: ap-anim-underline-keyframes;
     animation-duration: 4s;
@@ -189,7 +204,7 @@ body, html {
 
 .bgimg-2 {
     background-image: url("../../images/experience.jpg");
-    min-height: 400px;
+    min-height: 100px;
     opacity: 1;
 }
 
@@ -219,112 +234,6 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2 {
         background-attachment: scroll;
-    }
-}
-
-/* timeline */
-
-.timeline-date {
-    color: #00d646;
-    font-weight: bold;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 3px;
-    background-color: #00d646;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: 1px;
-}
-
-/* Container around content */
-.timeline-container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-
-/* The circles on the timeline */
-.timeline-container::after {
-    content: '';
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    right: -10px;
-    background-color: #00d646;
-    top: 0px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-/* Place the container to the left */
-.timeline-left {
-    text-align: right;
-    left: 0;
-}
-
-/* Place the container to the right */
-.timeline-right {
-    text-align: left;
-    left: 50%;
-}
-
-/* Fix the circle for containers on the right side */
-.timeline-right::after {
-    left: -5px;
-}
-
-.timeline-anim {
-    animation-name: timeline-anim-keyframes;
-    animation-duration: 1s;
-}
-@keyframes timeline-anim-keyframes {
-    from {opacity: 0}
-    to {opacity: 1}
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-    /* Place the timelime to the left */
-    .timeline::after {
-        left: 31px;
-    }
-
-    /* Full-width containers */
-    .timeline-container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-
-    /* Make sure that all arrows are pointing leftwards */
-    .timeline-container::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    }
-
-    /* Make sure all circles are at the same spot */
-    .timeline-left::after, .timeline-right::after {
-        left: 26px;
-    }
-
-    /* Make all right containers behave like the left ones */
-    .timeline-right {
-        left: 0%;
     }
 }
 
