@@ -15,6 +15,43 @@
 
 /* custom ap */
 
+.ap-color-rouge {
+    color: #f55d3e !important;
+}
+.ap-color-jaune {
+    color: #f2bd50 !important;
+}
+.ap-color-vert {
+    color: #5c7552 !important;
+}
+.ap-color-beige {
+    color: #eae5e3 !important;
+}
+.ap-color-gris {
+    color: #444444 !important;
+}
+
+.ap-bg-color-rouge {
+    background-color: #f55d3e !important;
+}
+.ap-bg-color-jaune {
+    background-color: #f2bd50 !important;
+}
+.ap-bg-color-vert {
+    background-color: #5c7552 !important;
+}
+.ap-bg-color-beige {
+    background-color: #eae5e3 !important;
+}
+.ap-bg-color-gris {
+    background-color: #444444 !important;
+}
+
+.ap-button {
+    border-color: #f55d3e;
+    background-color: #f55d3e;
+}
+
 .ap-logo-fixed {
     height: 40px;
     opacity: 1 !important;
@@ -136,7 +173,7 @@ body, html {
     scroll-behavior: smooth;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2 {
     position: relative;
     opacity: 1;
     background-attachment: fixed;
@@ -154,18 +191,6 @@ body, html {
     background-image: url("../../images/experience.jpg");
     min-height: 400px;
     opacity: 1;
-}
-
-.bgimg-3 {
-    background-image: url("../../images/experience.jpg");
-    min-height: 400px;
-    opacity: 1;
-}
-
-.bgimg-4 {
-    background-image: url("../../images/chaus_bis.jpg");
-    min-height: 100%;
-    background-position: bottom;
 }
 
 .caption {
@@ -192,7 +217,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2 {
         background-attachment: scroll;
     }
 }
