@@ -1,7 +1,7 @@
 /* bootstrap override */
 
 .navbar {
-    background-color: #f55d3e;
+    background-color: #fa5124;
     font-size: 0.75rem;
 }
 
@@ -10,16 +10,16 @@
 }
 
 .nav-item.active {
-    color: #f2bd50 !important;
+    color: #fcd100 !important;
 }
 
 /* custom ap */
 
 .ap-color-rouge {
-    color: #f55d3e !important;
+    color: #fa5124 !important;
 }
 .ap-color-jaune {
-    color: #f2bd50 !important;
+    color: #fcd100 !important;
 }
 .ap-color-vert {
     color: #5c7552 !important;
@@ -32,10 +32,10 @@
 }
 
 .ap-bg-color-rouge {
-    background-color: #f55d3e !important;
+    background-color: #fa5124 !important;
 }
 .ap-bg-color-jaune {
-    background-color: #f2bd50 !important;
+    background-color: #fcd100 !important;
 }
 .ap-bg-color-vert {
     background-color: #5c7552 !important;
@@ -48,8 +48,8 @@
 }
 
 .ap-button-jaune {
-    border-color: #f2bd50;
-    background-color: #f2bd50;
+    border-color: #fcd100;
+    background-color: #fcd100;
 }
 .ap-button-jaune:hover {
     color: #fff;
@@ -58,8 +58,8 @@
 }
 
 .ap-button-rouge {
-    border-color: #f55d3e;
-    background-color: #f55d3e;
+    border-color: #fa5124;
+    background-color: #fa5124;
 }
 .ap-button-rouge:hover {
     color: #fff;
@@ -147,7 +147,7 @@
 .ap-anim-underline {
     display: inline-block;
     padding-bottom:10px;
-    background-image: linear-gradient(#f2bd50, #f2bd50);
+    background-image: linear-gradient(#fcd100, #fcd100);
     background-repeat: no-repeat;
     animation-name: ap-anim-underline-keyframes;
     animation-duration: 4s;
@@ -180,6 +180,13 @@
     display: block;
 }
 
+.pl-6 {
+    padding-left: 4rem !important;
+}
+.pr-6 {
+    padding-right: 4rem !important;
+}
+
 /* parallax */
 
 body, html {
@@ -203,7 +210,7 @@ body, html {
 }
 
 .bgimg-2 {
-    background-image: url("../../images/experience.jpg");
+    background-image: url("../../images/approche_index.jpg");
     min-height: 100px;
     opacity: 1;
 }
