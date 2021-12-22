@@ -85,7 +85,7 @@
 
 .ap-logo-responsive {
     display: block;
-    height: 60px;
+    height: 40px;
     opacity: 1 !important;
 }
 
@@ -175,12 +175,16 @@
     margin-bottom: 40px;
 }
 
-.ap-contact {
-    background-color: #333b50;
-    color: #bec7d5;
-    font-size: 0.8em;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.ap-contact-item {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.ap-contact-link {
+    color: #eae5e3 !important;
+}
+.ap-contact-link:hover {
+    color: #5c7552 !important;
 }
 
 .ap-hide {
