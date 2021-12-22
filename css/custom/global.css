@@ -67,6 +67,17 @@
     border-color: #444444;
 }
 
+.ap-badge-vert {
+    color: #eae5e3;
+    background-color: #5c7552;
+    font-size: 1rem;
+}
+
+.ap-processus-text {
+    line-height: 1rem;
+    color: #444444;
+}
+
 .ap-logo-fixed {
     height: 40px;
     opacity: 1 !important;
@@ -74,7 +85,7 @@
 
 .ap-logo-responsive {
     display: block;
-    height: 40px;
+    height: 60px;
     opacity: 1 !important;
 }
 
