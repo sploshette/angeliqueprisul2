@@ -180,6 +180,25 @@
     margin-bottom: 40px;
 }
 
+.ap-philosophie-item-title {
+    color: #5c7552;
+    font-size:1rem;
+    line-height: 1.2;
+}
+.ap-philosophie-item {
+    font-size:1rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .ap-approche-item-even {
+        background-color: #eae5e3 !important;
+    }
+    .ap-approche-item-odd {
+        background-color: #fcd100 !important;
+    }
+}
+
 .ap-contact-link {
     color: #eae5e3 !important;
 }
