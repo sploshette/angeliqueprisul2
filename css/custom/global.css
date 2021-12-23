@@ -48,23 +48,23 @@
 }
 
 .ap-button-jaune {
-    border-color: #fcd100;
-    background-color: #fcd100;
+    border-color: #fcd100 !important;
+    background-color: #fcd100 !important;;
 }
 .ap-button-jaune:hover {
-    color: #fff;
-    background-color: #444444;
-    border-color: #444444;
+    color: #fff !important;;
+    background-color: #444444 !important;;
+    border-color: #444444 !important;;
 }
 
 .ap-button-rouge {
-    border-color: #fa5124;
-    background-color: #fa5124;
+    border-color: #fa5124 !important;;
+    background-color: #fa5124 !important;;
 }
 .ap-button-rouge:hover {
-    color: #fff;
-    background-color: #444444;
-    border-color: #444444;
+    color: #fff !important;;
+    background-color: #444444 !important;;
+    border-color: #444444 !important;;
 }
 
 .ap-badge-vert {
